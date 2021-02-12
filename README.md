@@ -22,3 +22,20 @@ DB_PW = 'my-secret-pw'
 ```
 python app.py
 ```
+
+
+## APIs
+
+```
+curl --location --request GET 'localhost:8080/getall' \
+--header 'Host: api.bshukla.com' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "amount": 10000, "desc":"this is sample"
+}'
+```
+
+
+Expected response
+```
+```
